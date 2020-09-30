@@ -1,4 +1,47 @@
-<!--style.css-->
-nav {
-	background: linear-gradient(to bottom, #2838c8, #391fa3);
+/*style.css*/
+
+	/*Sets the nav bar to have a color gradient*/
+	nav {
+		background: linear-gradient(to bottom, #2838c8, #391fa3);
     }
+	
+	/*This removes the bullet points from an unorder list*/
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	/*This makes the nav bar horizontal. 
+	Removing this will make the nav bar vertical on the top of the webpage*/
+	li {
+		float: left;
+	}
+
+	/*This sets up the text for the nav bar*/
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	/* Change the link color to 
+	linear-gradient(to bottom, #c9d3ff, #391fa3) on hover*/
+	li a:hover {
+		background: linear-gradient(to bottom, #c9d3ff, #391fa3);
+	}
+	
+	/*----CLASSES FOR WEBPAGES----*/
+	
+	/* This sets up the positioning for the images on the directors page*/
+	.dirimage{
+		float: left;
+		margin-left: 250px;
+		margin-right: 250px;
+		width: 250px;
+		height: 250px;
+		border: none;
+	}
