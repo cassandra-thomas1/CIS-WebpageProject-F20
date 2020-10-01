@@ -3,7 +3,7 @@
 	/*Sets the nav bar to have a color gradient*/
 	nav {
 		background: linear-gradient(to bottom, #2838c8, #391fa3);
-    }
+    	}
 	
 	/*This removes the bullet points from an unorder list*/
 	ul {
@@ -22,6 +22,7 @@
 	/*This sets up the text for the nav bar*/
 	li a {
 		display: block;
+		font-family: Helvetica;
 		color: white;
 		text-align: center;
 		padding: 14px 16px;
@@ -44,4 +45,11 @@
 		width: 250px;
 		height: 250px;
 		border: none;
+	}
+	
+	/* This creates a pattern for the background on the main body for the 
+	directors webpage*/
+	.gradpattern {
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(255,255,255,1)), 
+		repeating-linear-gradient(45deg, #dbd9c3 0px, #dbd9c3 6px, #aba88c 6px, #aba88c 11px, #dbd9c3 12px);
 	}
