@@ -41,6 +41,10 @@
 		overflow-x: hidden;
 	}
 	
+	h1{
+		float: right; 
+	}
+
 	/*----CLASSES FOR WEBPAGES----*/
 	
 	/* This sets up the positioning for the images on the directors page*/
@@ -67,8 +71,5 @@
 	.gradpattern {
 		background-image: linear-gradient(to bottom, rgba(125,125,255,.5), rgba(255,255,255,1)), 
 		repeating-linear-gradient(45deg, #ffffff 0px, #ffffff 6px, #eeeeee 6px, #eeeeee 11px, #ffffff 12px);
-	}
-	h1{
-		float: right; 
 	}
 	
