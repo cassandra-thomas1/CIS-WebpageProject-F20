@@ -56,8 +56,8 @@
 	This is not noticeable unless the user's web browser is in an odd ratio*/
 	.hometext{
 		float: left;
-		margin-left: 100px;
-		width: 75%;
+		margin-left: 200px;
+		width: 65%;
 		border: none;
 		font-family: Verdana;
 	}
