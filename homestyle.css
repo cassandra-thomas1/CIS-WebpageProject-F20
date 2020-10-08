@@ -40,15 +40,11 @@
 	body {
 		overflow-x: hidden;
 	}
-	
-	h1{
-		float: right; 
-	}
 
 	/*----CLASSES FOR WEBPAGES----*/
 	
-	/* This sets up the positioning for the images on the directors page*/
-	.dirimage{
+	/* This sets up the positioning for the images for the home page*/
+	.homeimage{
 		float: left;
 		margin-left: 100px;
 		width: 250px;
@@ -56,9 +52,9 @@
 		border: none;
 	}
 	
-	/* This sets up the positioning for the director's biography on the directors page.
+	/* This sets up the positioning for the homepage text.
 	This is not noticeable unless the user's web browser is in an odd ratio*/
-	.dirtext{
+	.hometext{
 		float: left;
 		margin-left: 100px;
 		width: 75%;
@@ -67,9 +63,8 @@
 	}
 	
 	/* This creates a pattern for the background on the main body for the 
-	directors webpage*/
+	home webpage*/
 	.gradpattern {
 		background-image: linear-gradient(to bottom, rgba(125,125,255,.5), rgba(255,255,255,1)), 
 		repeating-linear-gradient(45deg, #ffffff 0px, #ffffff 6px, #eeeeee 6px, #eeeeee 11px, #ffffff 12px);
 	}
-	
