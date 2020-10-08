@@ -1,9 +1,9 @@
-/*style.css*/
+/*homestyle.css*/
 
 	/*Sets the nav bar to have a color gradient*/
 	nav {
 		background: linear-gradient(to bottom, #2838c8, #391fa3);
-    }
+    	}
 	
 	/*This removes the bullet points from an unorder list*/
 	ul {
