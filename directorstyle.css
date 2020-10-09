@@ -32,13 +32,15 @@
 	/* Change the link color to 
 	linear-gradient(to bottom, #c9d3ff, #391fa3) on hover*/
 	li a:hover {
-		background: linear-gradient(to bottom, #c9d3ff, #391fa3);
+		background: linear-gradient(to bottom, #111155, #1111aa);
 	}
 	
 	/*This prevents the user from scrolling horizontally.
-	This is needed since the background breaks without it*/
+	This is needed since the background breaks without it.
+	This also fixes the padding around the navbar*/
 	body {
 		overflow-x: hidden;
+		margin:0px;
 	}
 	
 	/*----CLASSES FOR WEBPAGES----*/
