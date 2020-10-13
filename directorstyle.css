@@ -43,6 +43,12 @@
 		margin:0px;
 	}
 	
+	/*This sets up the table's row and column position at the bottom of the webpage*/
+	th, td {
+		width: 250px;
+		overflow: hidden;
+	}
+	
 	/*----CLASSES FOR WEBPAGES----*/
 	
 	/* This sets up the positioning for the images on the directors page*/
@@ -69,4 +75,13 @@
 	directors webpage*/
 	.gradpattern {
 		background-image: linear-gradient(to bottom, rgba(75,100,255,.5), rgba(255,255,255,1));
+	}
+	
+	/* This sets up the positioning for the footer content of the webpage
+	which consist of the grant and the websites funding this website*/
+	.footcont {
+		text-align: center;
+		border: none;
+		font-family: Georgia;
+		line-height: 1.5;
 	}
