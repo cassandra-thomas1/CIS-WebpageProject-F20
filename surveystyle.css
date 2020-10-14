@@ -1,0 +1,73 @@
+/*surveystyle.css*/
+
+/*Sets the nav bar to have a color gradient*/
+nav {
+	background: linear-gradient(to bottom, #2838c8, #391fa3);
+	}
+
+/*This removes the bullet points from an unorder list*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/*This makes the nav bar horizontal.
+Removing this will make the nav bar vertical on the top of the webpage*/
+li {
+	float: left;
+}
+
+/*This sets up the text for the nav bar*/
+li a {
+	display: block;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to
+linear-gradient(to bottom, #c9d3ff, #391fa3) on hover*/
+li a:hover {
+	background: linear-gradient(to bottom, #111155, #1111aa);
+}
+
+/*This prevents the user from scrolling horizontally.
+This is needed since the background breaks without it.
+This also fixes the padding around the navbar*/
+body {
+	overflow-x: hidden;
+	margin:0px;
+	font-family: Verdana;
+	font-size: 10;
+
+}
+
+/*This sets up the table's row and column position at the bottom of the webpage*/
+th, td {
+	width: 250px;
+	overflow: hidden;
+}
+
+/*----CLASSES FOR WEBPAGES----*/
+
+/* This sets up the positioning for the images on the directors page*/
+
+
+/* This creates a pattern for the background on the main body for the
+directors webpage*/
+.gradpattern {
+	background-image: linear-gradient(to bottom, rgba(75,100,255,.5), rgba(255,255,255,1));
+}
+
+/* This sets up the positioning for the footer content of the webpage
+which consist of the grant and the websites funding this website*/
+.footcont {
+	text-align: center;
+	border: none;
+	font-family: Georgia;
+	line-height: 1.5;
+}
