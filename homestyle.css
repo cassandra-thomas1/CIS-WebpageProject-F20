@@ -87,18 +87,55 @@
 	.hometext{
 		float: left;
 		margin-left: 200px;
+		margin-bottom: 25px;
 		width: 50%;
 		border: none;
-		font-family: Verdana;
+		font-family: Georgia;
+		line-height: 1.5;
 	}
 	
 	/* This sets up the about section of the home page by
 	bundling .homeimage and .hometext*/
 	.homecont{
 		float: left;
+		margin-bottom: 75px;
 		border-style: solid hidden;
 		border-color: #555555;
 		background: #ffffff;
+	}
+	
+	/* This sets up the article section of the home page
+	by bundling up multiple .container classes*/
+	.homearticle{
+		float: left;
+		margin: auto;
+		width: 100%;
+	}
+	
+	/* This makes it so that multiple div classes can be centered on a homepage.
+	This is used for the first two elements in the article section*/
+	.containerl {
+		text-align: center;
+		font-family: Georgia;
+		line-height: 1.5;
+		float: left;
+		margin-left: 140px;
+		margin-bottom: 75px;
+		width: 300px;
+		border-style: none;
+	}
+	
+	/* This makes it so that multiple div classes can be centered on a homepage.
+	This is used for the last two elements in the article section*/
+	.containerr {
+		text-align: center;
+		font-family: Georgia;
+		line-height: 1.5;
+		float: right;
+		margin-right: 140px;
+		margin-bottom: 75px;
+		width: 300px;
+		border-style: none;
 	}
 	
 	/* This creates a pattern for the background on the main body for the 
