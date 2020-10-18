@@ -52,12 +52,21 @@
 
 	/*----CLASSES FOR WEBPAGES----*/
 
+	/* This sets up the positioning for the images for the survey page*/
+	.surimage{
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 150px;
+		width: 50%;
+		border: none;
+	}
+	
 	/* This sets up the positioning for the surveye text.
 	This is not noticeable unless the user's web browser is in an odd ratio*/
 	.surtext{
 		margin: auto;
 		margin-top: 50px;
-		margin-bottom: 800px;
+		margin-bottom: 150px;
 		width: 75%;
 		border: none;
 		font-family: Georgia;
