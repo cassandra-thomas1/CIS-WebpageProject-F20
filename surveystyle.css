@@ -1,9 +1,14 @@
 /*surveystyle.css*/
 
-	/*Sets the nav bar to have a color gradient*/
+	/*Sets the nav bar to have a color gradient and to be fixed at
+	 the top of the screen when scrolling down the webpage*/
 	nav {
 		background: linear-gradient(to bottom, #2838c8, #391fa3);
-		}
+		position: fixed;
+		z-index:1;
+		top: 0;
+		width: 100%;
+    }
 
 	/*This removes the bullet points from an unorder list*/
 	ul {
