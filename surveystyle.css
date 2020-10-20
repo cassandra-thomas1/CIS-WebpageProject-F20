@@ -57,6 +57,15 @@
 
 	/*----CLASSES FOR WEBPAGES----*/
 
+	/* This sets up a div that fills up the height of the navbar.
+	This is to fix some elements that broke when changing the navbar
+	to be at a fixed position*/
+	.navfill{
+		margin: auto;
+		margin-top: 63px;
+		border: none;
+	}
+	
 	/* This sets up the positioning for the images for the survey page*/
 	.surimage{
 		margin: auto;
@@ -70,7 +79,7 @@
 	This is not noticeable unless the user's web browser is in an odd ratio*/
 	.surtext{
 		margin: auto;
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-bottom: 150px;
 		width: 75%;
 		border: none;
