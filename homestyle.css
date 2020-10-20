@@ -63,6 +63,15 @@
 
 	/*----CLASSES FOR WEBPAGES----*/
 	
+	/* This sets up a div that fills up the height of the navbar.
+	This is to fix some elements that broke when changing the navbar
+	to be at a fixed position*/
+	.navfill{
+		margin: auto;
+		margin-top: 63px;
+		border: none;
+	}
+	
 	/* This sets up the positioning for the header images for the home page*/
 	.homeheader{
 		height: 400px;
