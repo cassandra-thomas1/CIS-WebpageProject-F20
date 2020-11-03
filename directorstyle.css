@@ -100,3 +100,13 @@
 		font-family: Georgia;
 		line-height: 1.5;
 	}
+	
+	/* This sets the return anchor to the very top of the page.
+	We need to do this to fix a bug where the return anchor dosen't send
+	a user to the top of the webpage*/
+	.top {
+		display: block;
+		position: relative;
+		top: -250px;
+		visibility: hidden;
+	}
