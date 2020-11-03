@@ -45,8 +45,8 @@
 	This is needed since the background breaks without it.
 	This also fixes the padding around the navbar*/
 	body {
-			overflow-x: hidden;
-			margin:0px;
+		overflow-x: hidden;
+		margin:0px;
 	}
 
 	/*This sets up the table's row and column position at the bottom of the webpage*/
@@ -79,7 +79,6 @@
 	This is not noticeable unless the user's web browser is in an odd ratio*/
 	.surtext{
 		margin: auto;
-		margin-top: 100px;
 		margin-bottom: 150px;
 		width: 75%;
 		border: none;
@@ -100,4 +99,14 @@
 		border: none;
 		font-family: Georgia;
 		line-height: 1.5;
+	}
+	
+	/* This sets the return anchor to the very top of the page.
+	We need to do this to fix a bug where the return anchor dosen't send
+	a user to the top of the webpage*/
+	.top {
+		display: block;
+		position: relative;
+		top: -250px;
+		visibility: hidden;
 	}
