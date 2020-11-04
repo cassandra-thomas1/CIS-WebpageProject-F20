@@ -69,7 +69,7 @@
 	/* This sets up the positioning for the images on the directors page*/
 	.dirimage{
 		float: left;
-		margin-left: 100px;
+		margin-left: 125px;
 		width: 250px;
 		height: 250px;
 		border: none;
@@ -79,8 +79,8 @@
 	This is not noticeable unless the user's web browser is in an odd ratio*/
 	.dirtext{
 		float: left;
-		margin-left: 100px;
-		width: 75%;
+		margin-left: 125px;
+		width: 60%;
 		border: none;
 		font-family: Georgia;
 		line-height: 1.5;
