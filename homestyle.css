@@ -78,13 +78,14 @@
 		border: none;
 		background-image: url("https://webpage.pace.edu/RZ09697P/images/christina-wocintechchat-com-rg1y72eKw6o-unsplash.jpg");
 		background-repeat: no-repeat;
-		background-position: 0px -800px; 
+		background-position: -90px -810px; 
 		background-size: 2000px 1500px;
 	}
 	
 	/* This sets up the positioning for the logo in the header of the home page*/
 	.homelogo{
 		margin: auto;
+		margin-top: 75px;
 		position: absolute;
 		width: 100%;
 		top: 100px;
