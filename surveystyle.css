@@ -1,6 +1,12 @@
-/*surveystyle.css*/
+/*surveystyle.css
+*	PROGRAMMERS: Joseph Carvalho, Jack Lasko, Domenico Monteleone, Ronaldo Simbana, Robert Zecchini
+*	DATE: 11/18/20
+*	VERSION: 1.14
+*	PURPOSE: This is a stylesheet that sets the appearance for surveystyle.html*/
 
-	/*Sets the nav bar to have a color gradient and to be fixed at
+	/*----NON-CLASSES/OVERRIDES FOR WEBPAGES----*/
+	
+	/* Sets the nav bar to have a color gradient and to be fixed at
 	 the top of the screen when scrolling down the webpage*/
 	nav {
 		background: linear-gradient(to bottom, #2838c8, #391fa3);
@@ -10,7 +16,7 @@
 		width: 100%;
     }
 
-	/*This removes the bullet points from an unorder list*/
+	/* This removes the bullet points from an unorder list*/
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -18,13 +24,13 @@
 		overflow: hidden;
 	}
 
-	/*This makes the nav bar horizontal.
+	/* This makes the nav bar horizontal.
 	Removing this will make the nav bar vertical on the top of the webpage*/
 	li {
 		float: left;
 	}
 
-	/*This sets up the text for the nav bar*/
+	/* This sets up the text for the nav bar*/
 	li a {
 		display: block;
 		font-family: Helvetica;
@@ -41,7 +47,7 @@
 		background: linear-gradient(to bottom, #111155, #1111aa);
 	}
 
-	/*This prevents the user from scrolling horizontally.
+	/* This prevents the user from scrolling horizontally.
 	This is needed since the background breaks without it.
 	This also fixes the padding around the navbar*/
 	body {
@@ -49,7 +55,7 @@
 		margin:0px;
 	}
 
-	/*This sets up the table's row and column position at the bottom of the webpage*/
+	/* This sets up the table's row and column position at the bottom of the webpage*/
 	th, td {
 		width: 250px;
 		overflow: hidden;
