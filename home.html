@@ -1,25 +1,41 @@
 <!--home.html-->
 
 <!--PROGRAMMERS: Joseph Carvalho, Jack Lasko, Domenico Monteleone, Ronaldo Simbana, Robert Zecchini-->
-<!--DATE: 11/17/20-->
-<!--VERSION: 1.24-->
+<!--DATE: 11/18/20-->
+<!--VERSION: 1.25-->
 <!--PURPOSE: A webpage that'll be the main homepage for this website-->
 <!DOCTYPE html>
 
 <html lang="en">
 <html>
 
+	<!--Head sets up the tab bar for the GRACES website-->
 	<head>
+	
+		<!--Sets the name of the web browser tab-->
 		<title> GRACES </title>
+		
+		<!--Sets up the character set for the HTML page-->
 		<meta charset="utf-8">
+		
+		<!--Sets up the CSS stylesheet used for this HTML page-->
 		<link rel="stylesheet" href="homestyle.css">
+		
+		<!--Sets up icon for the web browser tab-->
 		<link rel="icon" type="image/x-icon" href="https://webpage.pace.edu/RZ09697P/images/icon.ico">
 	</head>
 
 	<!--Body positions images and related texts to said images-->
 	<body>
+	
+	<!--This creates an anchor that goes to the top of the HTML webpage.
+	Make this the first element used after the body is defined-->
 	<a class="top" id="return"></a>
+	
+	<!--Sets up the overall apearance of the HTML webpage-->
 	<body class="gradpattern">
+	
+		<!--This creates the navigation bar-->
 	  	<nav>
 			<ul>
 				<a href="home.html"><li><img src="https://webpage.pace.edu/RZ09697P/images/logo2.png" height=55 width=110></img></li></a>
@@ -29,20 +45,34 @@
 			</ul>
 		</nav>
 		
+		<!--This is a filler element that must be added to account for
+		the navbar being set at a fixed position. Without it, the navbar
+		will overlap with other div elements when the webpage is loaded
+		the first time or if the webpage is refreshed-->
 		<div class="navfill">
 		</div>
 		
+		<!--This sets up the header div for the homepage.
+		This includes the logo and the accompanying background image-->
 		<div class="homeheader">
 			<div class="homelogo">
 				<center><img src="https://webpage.pace.edu/RZ09697P/images/logo.png" height=200 width=400 class="fadein"></img></center>
 			</div>
 		</div>
 
+		<!--This sets up the main text content for the homepage.
+		This also includes an image that can be replaced-->
 		<div class="homecont">
+		
+			<!--This adds a horizontal line at the top of the main homepage content-->
 			<hr>
+			
+			<!--This sets up the image for homcont-->
 			<div class="homeimage">
 				<img src="https://webpage.pace.edu/RZ09697P/images/cdc-_N7I1JyPYJw-unsplash.jpg" height=550 width=400>
 			</div>
+			
+			<!--This sets up the text content for homecont-->
 			<div class="hometext">
 				<h2>About Us</h2>
 				<font size=4><p>Project GRACES (Gender and Race in Academic Career Experiences in STEM) is funded by 
@@ -62,12 +92,18 @@
 				<h2>Our Mission</h2>
 				<font size=4><p>Our mission is to show experiences of Black women in academic faculty positions in STEM fields. If we can understand what it's 
 				like to be a Black woman, we can create a more inclusive and equitable society. Let's make a just society together.</p></font>
-
 			</div>
 		</div>
 		
+		<!--This sets up the Articles and Data section of the home page.
+		If you end up making an Articles and Data webpage that's seperate
+		from the homepage, remove this div class-->
 		<div class="homearticle">
 			<center><h1>Articles and Data</h1></center>
+			
+			<!--This sets up multiple conatiners that are anchored on the 
+			left side of the webpage. This is done to fix some position when 
+			a web browser is minimized-->
 			<div class="containerl">
 				<h2>WHAT IS THE PROBLEM?</h2>
 				<font size=4><a href="https://tomprof.stanford.edu/posting/1334" target="_blank"><p>Barriers to Faculty Diversity</p></a>
@@ -79,6 +115,10 @@
 				<a href="https://www.csun.edu/sites/default/files/ChronFocus2016-Creating%20a%20Diverse%20Faculty.pdf" target="_blank"><p>Creating a Diverse Faculty</p></a>
 				<a href="https://insidehighered.com/advice/2020/06/05/advice-department-chairs-how-foster-inclusion-among-faculty-opinion" target="_blank"><p>Helping Inclusion</p></a></font>
 			</div>
+			
+			<!--This sets up multiple conatiners that are anchored on the 
+			right side of the webpage. This is done to fix some position when 
+			a web browser is minimized-->
 			<div class="containerr">
 				<h2>DATA</h2>
 				<font size=4><a href="https://www.insidehighered.com/news/2019/07/02/little-progress-diversifying-faculty-ranks-study-finds-particularly-research" target="_blank"><p>Data on Diversity Issues</p></a>
@@ -91,9 +131,14 @@
 				<a href="https://www2.ed.gov/rschstat/research/pubs/advancing-diversity-inclusion.pdf" target="_blank"><p>Increasing Diversity in Higher Education</p></a></font>
 			</div>
 		</div>
+		
+		<!--This clears left and right floats from containerl and containerr-->
 		<div style="clear:left;"></div>		
 		<div style="clear:right;"></div>
 		
+		<!--This sets up the foot/bottom element that includes links to
+		the National Science Foundation and the QSDI initiative. This also
+		includes the grant given by the National Science Foundation-->
 		<div class="footcont">
 		<center>
 			<table>
