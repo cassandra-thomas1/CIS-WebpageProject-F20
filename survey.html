@@ -1,25 +1,41 @@
 <!--survey.html-->
 
 <!--PROGRAMMERS: Joseph Carvalho, Jack Lasko, Domenico Monteleone, Ronaldo Simbana, Robert Zecchini-->
-<!--DATE: 11/3/20-->
-<!--VERSION: 1.13-->
+<!--DATE: 11/18/20-->
+<!--VERSION: 1.14-->
 <!--PURPOSE: A webpage that shows survey link-->
 <!DOCTYPE html>
 
 <html lang="en">
 <html>
 
+	<!--Head sets up the tab bar for the GRACES website-->
 	<head>
+	
+		<!--Sets the name of the web browser tab-->
 		<title> Survey - GRACES </title>
+		
+		<!--Sets up the character set for the HTML page-->
 		<meta charset="utf-8">
+		
+		<!--Sets up the CSS stylesheet used for this HTML page-->
 		<link rel="stylesheet" href="surveystyle.css">
+		
+		<!--Sets up icon for the web browser tab-->
 		<link rel="icon" type="image/x-icon" href="https://webpage.pace.edu/RZ09697P/images/icon.ico">
 	</head>
 
 	<!--Body positions images and related texts to said images-->
 	<body>
+	
+	<!--This creates an anchor that goes to the top of the HTML webpage.
+	Make this the first element used after the body is defined-->
 	<a class="top" id="return"></a>
+	
+	<!--Sets up the overall apearance of the HTML webpage-->
 	<body class="gradpattern">
+	
+		<!--This creates the navigation bar-->
 	  	<nav>
 			<ul>
 				<a href="home.html"><li><img src="https://webpage.pace.edu/RZ09697P/images/logo2.png" height=55 width=110></img></li></a>
@@ -29,12 +45,19 @@
 			</ul>
 		</nav>
 
+		<!--This is a filler element that must be added to account for
+		the navbar being set at a fixed position. Without it, the navbar
+		will overlap with other div elements when the webpage is loaded
+		the first time or if the webpage is refreshed-->
 		<div class="navfill">
 		</div>
+		
+		<!--We need to add two line breaks since the HTML was doing
+		weird stuff with navfill-->
 		<br>
 		<br>
 		
-		<!---Paragraph text and link--->
+		<!---This sets up the text content for the survey--->
 		<div class="surtext">
 			<center><font size =4><p>By telling us your experience we obtain data that will help us understand your situation. By recognizing you, 
 			we can achieve our goal to create a safe and diverse society. We need your experience if we want to understand you!</p>
@@ -44,10 +67,14 @@
 			<a href="https://survey.az1.qualtrics.com/jfe/form/SV_ezzYj1yqhjC8TNH">(Survey)</a></font><center>
 		</div>
 		
+		<!---This sets up the image for the survey webpage--->
 		<div class="surimage">
 			<center><img src="https://webpage.pace.edu/RZ09697P/images/christina-wocintechchat-com-RTJIXQNne68-unsplash.jpg" height=500 width=750></center>
 		</div>
 
+		<!--This sets up the foot/bottom element that includes links to
+		the National Science Foundation and the QSDI initiative. This also
+		includes the grant given by the National Science Foundation-->
 		<div class="footcont">
 		<center>
 			<table>
