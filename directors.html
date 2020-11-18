@@ -1,25 +1,41 @@
 <!--directors.html-->
 
 <!--PROGRAMMERS: Joseph Carvalho, Jack Lasko, Domenico Monteleone, Robert Zecchini-->
-<!--DATE: 11/3/20-->
-<!--VERSION: 1.18-->
+<!--DATE: 11/18/20-->
+<!--VERSION: 1.19-->
 <!--PURPOSE: A webpage that shows the pictures and bios of the Board of Directors-->
 <!DOCTYPE html>
 
 <html lang="en">
 <html>
 	  
+	<!--Head sets up the tab bar for the GRACES website-->
 	<head> 
+	
+		<!--Sets the name of the web browser tab-->
 		<title> Researchers - GRACES </title> 
+		
+		<!--Sets up the character set for the HTML page-->
 		<meta charset="utf-8">
+		
+		<!--Sets up the CSS stylesheet used for this HTML page-->
 		<link rel="stylesheet" href="directorstyle.css">
+		
+		<!--Sets up icon for the web browser tab-->
 		<link rel="icon" type="image/x-icon" href="https://webpage.pace.edu/RZ09697P/images/icon.ico">
 	</head>
 
 	<!--Body positions images and related texts to said images-->
 	<body>
+	
+	<!--This creates an anchor that goes to the top of the HTML webpage.
+		Make this the first element used after the body is defined-->
 	<a class="top" id="return"></a>
+	
+	<!--Sets up the overall apearance of the HTML webpage-->
 	<body class="gradpattern">
+	
+		<!--This creates the navigation bar-->
 	  	<nav>
 			<ul>
 				<a href="home.html"><li><img src="https://webpage.pace.edu/RZ09697P/images/logo2.png" height=55 width=110></img></li></a>
@@ -29,15 +45,24 @@
 			</ul>
 		</nav>
 		
+		<!--This is a filler element that must be added to account for
+		the navbar being set at a fixed position. Without it, the navbar
+		will overlap with other div elements when the webpage is loaded
+		the first time or if the webpage is refreshed-->
 		<div class="navfill">
 		</div>
+		
+		<!--We need to add two line breaks since the HTML was doing
+		weird stuff with navfill-->
 		<br>
 		<br>
 		
+		<!--This sets the image for Dr. Gilda A. Barabino-->
 		<div class="dirimage">
 			<img src="https://webpage.pace.edu/RZ09697P/images/barabino_gilda-04.png" height=250 width=250></img>
 		</div>
 		
+		<!--This sets the bio for Dr. Gilda A. Barabino-->
 		<div class="dirtext">
 			<h2>Dr. Gilda A. Barabino</h2>
 			<font size=4><p>Dr. Gilda A. Barabino will become the second president of Olin College of Engineering and Professor of
@@ -88,14 +113,18 @@
 			chemical engineering from Rice University.</p></font>
 		</div>
 		
+		<!--Clears float left from dirimage to reset the position of 
+		the next div elements-->
 		<div style="clear:left;"></div>
 		<br>
 		<br>
 		
+		<!--This sets the image for Dr. Paolo Gaudiano-->
 		<div class="dirimage">
 			<img src="https://webpage.pace.edu/RZ09697P/images/PGHead-BWTT.png" height=250 width=250></img>
 		</div>
 		
+		<!--This sets the bio for Dr. Paolo Gaudiano-->
 		<div class="dirtext">
 			<h2>Dr. Paolo Gaudiano</h2>
 			<font size=4><p>Building upon more than three decades of interdisciplinary research, teaching,
@@ -111,14 +140,18 @@
 			human-centric computer simulations.</p></font>
 		</div>
 		
+		<!--Clears float left from dirimage to reset the position of 
+		the next div elements-->
 		<div style="clear:left;"></div>
 		<br>
 		<br>
 
+		<!--This sets the image for Chibin Zhang-->
 		<div class="dirimage">
 			<img src="https://webpage.pace.edu/RZ09697P/images/CHIBIN%20ZHANG.png" height=250 width=250></img>
 		</div>
 		
+		<!--This sets the bio for Chibin Zhang-->
 		<div class="dirtext">
 			<h2>Chibin Zhang</h2>
 			<font size=4><p>Chibin Zhang is a research associate for <a href="https://aleria.tech" target="_blank">Aleria PBC</a>. With a Master's in Finance and a
@@ -128,13 +161,18 @@
 			benefit of incorporating diversity and inclusion using agent-based simulation.</p></font>
 		</div>
 		
+		<!--Clears float left from dirimage to reset the position of 
+		the next div elements-->
 		<div style="clear:left;"></div>
 		<br>
 		<br>		
 		
+		<!--This sets the image for Dr. Pauline Mosley-->
 		<div class="dirimage">
 			<img src="https://webpage.pace.edu/RZ09697P/images/Mosley_Image.png" height=250 width=250></img>
 		</div>
+		
+		<!--This sets the bio for Dr. Pauline Mosley-->
 		<div class="dirtext">
 			<h2>Dr. Pauline Mosley</h2>
 			<font size=4><p>Dr. Mosley is a Full Professor and Assistant Chair of Information Technology in the
@@ -151,14 +189,18 @@
 			the Academy—A Guide for Women and Minority Facult.</p></font>
 		</div>
 		
+		<!--Clears float left from dirimage to reset the position of 
+		the next div elements-->
 		<div style="clear:left;"></div>
 		<br>
 		<br>
 		
+		<!--This sets the image for Dr. Thomas S. Woodson-->
 		<div class="dirimage">
 			<img src="https://webpage.pace.edu/RZ09697P/images/Woodson_Thomas_Image.png" height=250 width=250></img>
 		</div>
 
+		<!--This sets the bio for Dr. Thomas S. Woodson-->
 		<div class="dirtext">
 			<h2>Dr. Thomas S. Woodson</h2>
 			<font size=4><p>Thomas S. Woodson is an assistant professor in the Department of Technology and
@@ -171,10 +213,15 @@
 			<a href="https://www.gatech.edu" target="_blank">(Georgia Tech)</a>.</p></font>
 		</div>
 		
+		<!--Clears float left from dirimage to reset the position of 
+		the next div elements-->
 		<div style="clear:left;"></div>
 		<br>
 		<br>
 		
+		<!--This sets up the foot/bottom element that includes links to
+		the National Science Foundation and the QSDI initiative. This also
+		includes the grant given by the National Science Foundation-->
 		<div class="footcont">
 		<center>
 			<table>
